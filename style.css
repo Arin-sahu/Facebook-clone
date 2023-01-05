@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color:silver;
+}
+.facebook{
+	display:flex;
+	justify-content:center;
+}
+
+.facebook h3{
+	margin: 50px auto;
+	font-family: poppins;
+	font-weight:bold;
+	font-size:50px;
+	color:#17A9FD;
+}
+
+.main-container{
+	width:300px;
+	height:400px;
+	display flex;
+	justify-content: center;
+	background-color:#ffff;
+	margin:-15px auto;
+
+}
+.container{
+	overflow: hidden;
+	background-color:#FBFCFC;
+}
+
+.container h3{
+	font-family: roboto;
+	font-size: 25px;
+	color:black;
+	margin: 20px 45px;
+}
+
+.container input{
+	margin: 20px 20px;
+	padding:20px;
+	width: 85%;
+	height: 40px;
+	border-radius: 10px;
+}
+
+.sign-in{
+	margin: 10px 20px;
+	padding:20px;
+	width: 85%;
+	height: 50px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.sign-in:hover{
+	background-color:blue;
+	color:white;
+}
+
+.link{
+	margin:25px 12px;
+	width:100%;
+}
+
+.container button{
+	padding: 10px 25px;
+	font-family: roboto;
+	font-size: 25px;
+	font-weight: bold;
+	transition: 0.5s ease-in-out;
+}
